@@ -28,79 +28,44 @@
 }
 
 .herotext p{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 500;
     line-height: 10px;
 }
 
 .aboutbtn{
+
     text-decoration: none;
     color: #fff;
     background: rgb(31, 187, 244);
-    padding: 10px 30px;
+    padding: 15px;
     border-radius: 10px;
     margin-top: 10px;
     display: inline-block;
 }
 
-.aboutbtn:hover{
-    background: white;
-    color: rgb(31, 187, 244);
-    padding: 10px 30px;
-    border-radius: 10px;   
-}
 
 
 @media screen and (min-width:390px) and (max-width: 700px){
    
 
-    .hero-img{
-        padding-left: 0;
-        
-        padding-bottom: 200px;
-    }
-   
-    .aboutbtn{
-        margin-left: 250px;
-
-    }
+  
+    
     
     .herotext h1{
-        margin-top: -170px;
-        margin-left: 260px;
+
+        margin-top: -150px;
+            
     }
 
     .herotext h2{
-        margin-left: 260px;
-    }
-
-    .herotext p{
-        margin-left: 260px;
-    }
-}
-
-
- 
-
-@media (min-width: 701px){
-
-
-    .herotext h1{
-        font-size: 36px;
-        align-content: center;
-    }
-
-    h2{
-        font-size:20px ;
-    }
-
+        display: none 
+       }
     
-    .herotext p{
-        font-size: 20px;
-        
-    }
-    .aboutbtn{
-        font-size: 15px;
-    }
 
+    .herotext p{
+      font-size: 50px;
+    }
 }
+
+
