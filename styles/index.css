@@ -13,9 +13,9 @@ justify-content: center;
 .container{
 
     border-radius: 10px;
-    border: solid 2px rgb(4, 128, 177);
+    
     box-shadow: 5px 7px 7px gray;
-    background: white;
+    background: whitesmoke;
     width: 100%;
     color: black;
     width: 90%;

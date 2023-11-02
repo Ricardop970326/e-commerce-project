@@ -75,11 +75,12 @@ main{
     font-family: 'Times New Roman', Times, serif;
     width: 80%;
     margin: 30px auto;
+    margin-bottom: 40px;
+    margin-top: -26px;
   }
   
   .contact-box {
     width:80%;
-    border:  3px solid rgb(4, 128, 177);
     box-shadow: 5px 7px 7px gray;
     background: white;
     padding: 30px;
@@ -99,13 +100,11 @@ h2{
   h1 {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 1px;
   }
   
-  .containercont {
-    margin-bottom: 40px;
-  }
-  
+ 
   .input-row {
     display: flex;
     justify-content: space-between;
