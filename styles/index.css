@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+}
+
+.text{
+    font-size: 20px;
+    display: flex;
+width: 100%;
+flex-direction: row;
+justify-content: center;
+}
+
+.container{
+
+    border-radius: 10px;
+    border: solid 2px rgb(4, 128, 177);
+    box-shadow: 5px 7px 7px gray;
+    background: white;
+    width: 100%;
+    color: black;
+    width: 90%;
+    margin: 0px auto;
+    padding: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.abouttitle{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 70px;
+}
+
+.descripction{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image{
+    width: 500px;
+    flex: 1;
+    align-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.image:hover img{
+    transform: scale(1.1);
+}
+
+.abouttext {
+    flex: 1;
+margin-left: 20px;
+}
+
+.abouttext p {
+    font-size: 13px;
+}
+
+@media screen and  (min-width: 390px) and (max-width:699px){
+
+    .userbar{
+
+        display: flex;
+        margin: 0;
+        width: 100%;
+        justify-content: right;
+        background: rgb(4, 128, 177);
+        height: 50px;
+       
+      }
+
+.image img{
+   max-width: 130px; 
+   height: 170px;
+}
+
+.container{
+    width: auto;
+}
+}
+.text{
+    font-size: 15px;
+    
+}
+
+@media screen and (min-width: 700px) and (max-width:1023px){
+
+    
+    .container{
+        width: auto;
+    }
+    
+    .abouttext p {
+        font-size: 20px;
+    }
+
+    .abouttext {
+    margin-left: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1323px){
+    
+    .container{
+        width: auto;
+            }
+    
+    .abouttext p {
+        font-size: 25px;
+    }
+
+    .abouttext {
+        margin-left: 30px;
+        }
+    
+}
+
+@media screen and (min-width: 1325px) {
+    
+    .container{
+        width: auto;
+            }
+    
+    .abouttext p {
+        font-size: 33px;
+    }
+
+    .abouttext {
+        margin-left: 35px;
+        } 
+}
+
+
+
+.userbar{
+
+    display: flex;
+    margin: 0;
+   
+    width: 100%;
+    justify-content: right;
+    background: rgb(4, 128, 177);
+    height: 50px;
+    padding: 0;
+   
+  }
+  
+  .searchbar{
+    padding-top: 16px;
+    padding-right: 20px;
+  }
+  
+
+#searchbar {
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius:5px;
+    border:  1px solid ;
+    margin-right: 10px;
+    padding-right: 60px;
+   border: 2px solid white;
+  }
+  
+  #searbtn{
+    margin-right: 10px ;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    border: 1px solid white;
+    background:rgb(31, 187, 244);
+    
+  }
+  
+  #signupbtn{
+    margin-left: -2px ;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    border: 1.5px solid white;
+    color: white;
+    background: rgb(31, 187, 244);
+   
+  }
+    

@@ -1,0 +1,106 @@
+.hero-img {
+    padding-right: 40px;
+    background-image: linear-gradient(rgba(120, 117, 117, 0.5), rgba(0,0,0, 0.7)), url(electronic-devices-1.jpg); 
+    opacity: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+    padding: 260px;
+    box-shadow: 5px 7px 7px gray;
+
+}
+
+.hero-img .herotext {
+    color: #fff ;
+    text-align: center
+}
+
+.herotext h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.herotext p{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.aboutbtn{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(31, 187, 244);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.aboutbtn:hover{
+    background: white;
+    color: rgb(31, 187, 244);
+    padding: 10px 30px;
+    border-radius: 10px;   
+}
+
+
+@media screen and (min-width:390px) and (max-width: 700px){
+   
+
+    .hero-img{
+        padding-left: 0;
+        
+        padding-bottom: 200px;
+    }
+   
+    .aboutbtn{
+        margin-left: 250px;
+
+    }
+    
+    .herotext h1{
+        margin-top: -170px;
+        margin-left: 260px;
+    }
+
+    .herotext h2{
+        margin-left: 260px;
+    }
+
+    .herotext p{
+        margin-left: 260px;
+    }
+}
+
+
+ 
+
+@media (min-width: 701px){
+
+
+    .herotext h1{
+        font-size: 36px;
+        align-content: center;
+    }
+
+    h2{
+        font-size:20px ;
+    }
+
+    
+    .herotext p{
+        font-size: 20px;
+        
+    }
+    .aboutbtn{
+        font-size: 15px;
+    }
+
+}

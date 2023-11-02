@@ -1,0 +1,155 @@
+
+.footer{
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: none;
+  box-sizing: border-box;
+  /* margin-top: 100%; */
+  height: 300px;
+  width: 100%;
+  padding: 40px 15%;
+  background: rgb(4, 128, 177);
+  color:  #efefef;
+  display: flex;
+}
+
+.footer div{
+  text-align: center;
+  justify-content: space-around;
+}
+
+.colm2{
+  flex-grow: 1;
+}
+
+footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing:1px ;
+}
+
+.colm1 a{
+  display: block;
+  text-decoration: none;
+  color:#efefef;
+  margin-top: 10px;
+}
+
+.colm3 p{
+  color: #fff;
+  font-size: 16px;
+}
+
+form input{
+  width: 170px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button{
+  margin-top: 5px;
+  background:rgb(31, 187, 244);
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover{
+  color: rgb(31, 187, 244);
+  border: 2px solid rgb(31, 187, 244);
+  background: #fff;
+  opacity: 40%;
+}
+
+.socialmed{
+  margin-top: -3px;
+}
+
+.socialmed i{
+  font-size: 15px;
+  margin: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+#icon{
+  box-shadow: none;
+  background: none;
+  border-radius: 50px;  
+}
+
+.foottext{
+  font-size: 16px;
+  }
+
+  @media screen and (min-width: 390px) and (max-width:699px){
+      
+
+       .footer{
+        padding: 10px;
+        padding-left: 12px;
+       }
+} 
+
+
+
+@media screen and (min-width: 700px) and (max-width:1023px){
+
+
+  form input{
+    width: 230px;
+    
+  }
+
+  .socialmed i{
+    font-size: 25px;
+    
+  }
+
+  .footer{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1323px){
+
+  form input{
+    width: 250px;
+    
+  }
+
+  .socialmed i a{
+    font-size: 27px;
+    
+  }
+
+  .footer{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1324px) {
+
+  form input{
+    width: 280px;
+  }
+
+  .socialmed i{
+    font-size: 36px;
+    
+  }
+
+  .footer{
+    font-size: 20px;
+  }
+}
+
+
+

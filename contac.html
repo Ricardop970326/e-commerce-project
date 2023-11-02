@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--this line bellow is the link to the page for the icons/-->
+  <script src="https://kit.fontawesome.com/98480c8a5e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/contact.css"/>
+<link rel="stylesheet" href="styles/footer.css">
+  <script src="https://kit.fontawesome.com/98480c8a5e.js" crossorigin="anonymous"></script>
+  <title>Contact</title>
+</head>
+
+<body>
+  <header>
+
+    <div class="userbar">
+      <div class="searchbar">
+        <input id="searchbar" type="text" required minlength="4" maxlength="80" riquired>
+        <button id="searbtn" type="submit">Search</button>
+      <button id="signupbtn">Sign Up</button></div>
+      </div>
+
+    <nav>
+
+      <div class="openMenu"><i class="fa fa-bars"></i></div>
+  
+      <ul class="mainMenu">
+  
+        <li><a href="index.html"></i>Home</a></li>
+  
+        <li><a href="listobjects.html">Products</a></li>
+  
+        <li><a class="active" href="contac.html">Contact</a></li>
+  
+  
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
+      </ul>
+    
+    </nav>
+
+  </header>
+
+  <main>
+    <div id="formcontact">
+    <form action="https://formspree.io/f/xwkdywrd" method="POST">
+    <!-- this the content-box where the contact information go-->
+    <div class="containercont">
+      <br><br><br>
+      <h1>Reach Out to Us. </h1>
+       <h1>We Are Just a Message Away!</h1>
+      <br>
+      <div class="contact-box">
+        <div class="contact">
+          <h2>Write Your Request</h2>
+          <br>
+          <!-- here for the rows for the information of who is making any request of information or questin-->
+            
+          <label>Subject</label>
+            <input type="text" name="Subject" required minlength="4" maxlength="50" placeholder="Title">
+            <label>Name</label>
+            <input type="text" name="Name" minlength="4" maxlength="25" placeholder="Write Your Name" required>
+  
+            <label>Phone</label>
+            <input type="number" name="Phone" placeholder="000 000 0000" min="1" max="12" required>
+  
+            <label>Email</label>
+            <input type="email" name="Email" minlength="4" maxlength="30" placeholder="example@gmail.com"  required>
+            <label>Subject</label>
+            <input type="text" name="Subject" placeholder="Title" required>
+  
+  
+            <label>Message</label>
+            <textarea rows="5" placeholder="Your Request" required></textarea>
+  
+            <button class="send" id="contact" type="Submit">SEND</button>
+           
+  
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+<footer>
+  <div class="footer">
+    <div class="colm1">
+      <h3>USEFULL LINKS</h3>
+      <a href="#"></a>About</a>
+      <a href="#"></a>Services</a>
+      <a href="#"></a>Contacs</a>
+      <a href="#"></a>Shop</a>
+      <a href="#"></a>Blog</a>
+    </div>
+    <div class="colm2">
+      <h3>NEWSLETTER</h3>
+      <form>
+        <input type="email" required minlength="4" maxlength="8" size="10" placeholder="Your Email Address" riquired>
+        <br>
+        <button type="submit">SUBCRIBE</button>
+      </form>
+    </div>
+    <div class="colm3">
+      <h3>CONTACT</h3>
+      <P>10546, try Road, DIS 2 <br>Banrose, kartena SC</P>
+      <div class="socialmed">
+        <a id="icon" href="https://www.facebook.com/profile.php?id=100095320069044"><i
+          class="fa-brands fa-facebook"></i></a>
+          <a id="icon" href="https://twitter.com/RicardoAPena97"><i class="fa-brands fa-twitter"></i></a>
+          <a id="icon" href="https://www.instagram.com/ricardoa.pena97/"><i
+            class="fa-brands fa-square-instagram"></i></a> 
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+  </body>
+  <script src="javascripts/script.js"></script>
+    </html>
