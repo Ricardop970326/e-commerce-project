@@ -48,7 +48,7 @@
 
   <main>
     <div id="formcontact">
-    <form action="https://formspree.io/f/xwkdywrd" method="POST">
+    <form id="contactForm" onsubmit="validateForm(event)" action="https://formspree.io/f/xwkdywrd" method="POST" name="myform" >
     <!-- this the content-box where the contact information go-->
     <div class="containercont">
       <br><br><br>
@@ -60,25 +60,27 @@
           <h2>Write Your Request</h2>
           <br>
           <!-- here for the rows for the information of who is making any request of information or questin-->
+
+          
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <span id="nameError" class="error-message"></span>
+  
+            <label for="phone">Phone:</label>
+            <input id="phone" type="number" name="Phone" placeholder="000 000 0000" required>
+  
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="emailError" class="error-message"></span>
             
-          <label>Subject</label>
-            <input type="text" name="Subject" required minlength="4" maxlength="50" placeholder="Title">
-            <label>Name</label>
-            <input type="text" name="Name" minlength="4" maxlength="25" placeholder="Write Your Name" required>
+            <label>Subject:</label>
+            <input  type="text" name="Subject" placeholder="Title" required>
   
-            <label>Phone</label>
-            <input type="number" name="Phone" placeholder="000 000 0000" min="1" max="12" required>
+            <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    <span id="messageError" class="error-message"></span>
   
-            <label>Email</label>
-            <input type="email" name="Email" minlength="4" maxlength="30" placeholder="example@gmail.com"  required>
-            <label>Subject</label>
-            <input type="text" name="Subject" placeholder="Title" required>
-  
-  
-            <label>Message</label>
-            <textarea rows="5" placeholder="Your Request" required></textarea>
-  
-            <button class="send" id="contact" type="Submit">SEND</button>
+            <button onclick="validateAndSubmit()" class="send" id="contact" type="Submit">SEND</button>
            
   
           </form>
@@ -123,4 +125,5 @@
 
   </body>
   <script src="javascripts/script.js"></script>
+
     </html>
