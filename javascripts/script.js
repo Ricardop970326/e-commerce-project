@@ -1,8 +1,9 @@
 const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
 const name = document.querySelector('.name');
 const phone = document.querySelector('.phone');
-const openMenu = document.querySelector('.email');
+const email = document.querySelector('.email');
 
 
 openMenu.addEventListener('click', show);
